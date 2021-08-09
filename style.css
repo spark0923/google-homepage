@@ -2,15 +2,66 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#navigation{
+nav{
     display: flex;
-    justify-content: flex-end;
+}
+
+#about_store{
+    display: flex;
+    margin-right: auto;
+    align-items: center;
     list-style: none;
     font-size: 13.5px;
 }
 
+#about_store li{
+    margin-right: 20px;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 13.5px;
+}
+
+
 #navigation li{
-    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#navigation li:hover{
+    text-decoration: underline;
+}
+
+#apps,#user{
+    display: flex;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+#user p{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+
+
+#apps:hover, #user:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+#apps img{
+    width: 25px;
 }
 
 /*----------------------------------------*/
@@ -18,7 +69,7 @@ body{
 #google_logo{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #google_logo img{
@@ -80,7 +131,12 @@ body{
     margin: 0 15px 0 15px;
     padding: 10px;
     background-color: #f5f5f5ef;
-    color: #726a6aef;
+    border: 1px transparent solid;
+    border-radius: 10px;
     font-weight: 100;
+}
+
+#sub_button *:hover{
+    border-color: rgb(204, 193, 193);
 }
 

@@ -2,8 +2,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html,body,header,nav {padding:0; margin:0;}
+
 nav{
     display: flex;
+}
+
+nav *{
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #about_store{
@@ -12,10 +19,16 @@ nav{
     align-items: center;
     list-style: none;
     font-size: 13.5px;
+    padding-left: 20px;
+    margin-top: 5px;
 }
 
 #about_store li{
     margin-right: 20px;
+}
+#about_store li:hover{
+    margin-right: 20px;
+    text-decoration: underline;
 }
 
 #navigation{
@@ -23,6 +36,7 @@ nav{
     align-items: center;
     list-style: none;
     font-size: 13.5px;
+    margin-top: 5px;
 }
 
 
